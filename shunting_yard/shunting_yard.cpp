@@ -3,7 +3,7 @@
 #include <string>
 #include <stdexcept>
 
-using ValueType = int;
+using ValueType = double;
 int operators(char op)
 {
 	if (op == '+' || op == '-')
